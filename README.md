@@ -20,6 +20,8 @@ Some of the benefits of using a JavaScript SDK wrapper:
 
 Deploy your EMC Avamar server and the REST API package (contact your EMC rep for that).
 
+Install Node.js - I suggest checking the NVM project here: https://github.com/creationix/nvm
+
 Clone this repository, open a terminal and run `npm install`.
 
 Edit `sdk/apiConfig.js` with your own REST API and Avamar settings.
