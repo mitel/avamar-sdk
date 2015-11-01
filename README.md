@@ -2,7 +2,7 @@
 
 A tentative to wrap the EMC Avamar REST API into a more simple and intuitive framework for developers. The code here is not supported in any way by EMC Corp. I developed it just to play around with the API and experiment with the new ES6/ES7 JavaScript syntax.
 
-Currently this is just a beta version with few of the REST API calls implemented as JavaScript async functions: 
+Currently this is just an alpha version with few of the REST API calls implemented as JavaScript async functions: 
 `login, logout, createResourcePool, deleteResourcePool, createDataProtectionResource, deleteDataProtectionResource, createTenant, deleteTenant, createResourceShare, assignResourceShare, deleteResourceShare, createFolder, deleteFolder, getTaskResult`. 
 
 Contributions and suggestions are welcomed. Still a lot of work to be done for extending the SDK, error handling and so on.
