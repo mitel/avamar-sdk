@@ -12,7 +12,7 @@ describe('batch test', function() { // eslint-disable-line
     });
   });
 
-  // use it.skip(..) if you want to leave the resources created
+  // replace with it.skip(..) if you want to leave the resources created
   it('run a batch of delete actions', () => {
     const promise = batchDelete();
     return promise.then(r => {
