@@ -4,13 +4,16 @@
 
 import initSDK from '../sdk/initSDK';
 
-let session, resourcePool, dpr, tenant, resourceShare, folder; // eslint-disable-line
+let ver, session, resourcePool, dpr, tenant, resourceShare, folder; // eslint-disable-line
 const sdk = initSDK();
 
 // uses JavaScript ES7 async/await syntax
 export async function batchCreate() {
 
   try {
+    ver = await sdk.getVersion();
+    console.log('API versions: ' + ver.versions);
+
     session = await sdk.login(); 
     console.log('logged in.. ');
 

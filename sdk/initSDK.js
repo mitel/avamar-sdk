@@ -1,4 +1,5 @@
 import api from './apiConfig';
+import { getVersion } from './version';
 import { login, logout } from './login';
 import { createResourcePool, deleteResourcePool } from './resourcePool';
 import { createDataProtectionResource, deleteDataProtectionResource } from './dataProtectionResource';
@@ -10,6 +11,7 @@ import { getTaskResult } from './task';
 export default function initSDK() {
   return {
     config: api,
+    getVersion,
     login,
     logout,
     createResourcePool,

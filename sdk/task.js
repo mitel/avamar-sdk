@@ -1,6 +1,7 @@
 import restler from 'restler';
 import api from './apiConfig';
 
+// credits to the 'restling' project. the wrapping code is taken from there.
 export function getTaskResult(authToken, taskId) {
   
   const _url = 'https://' + api.restServerHost + ':' + api.restServerPort + '/rest-api/task/' + taskId;
