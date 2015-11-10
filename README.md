@@ -30,6 +30,8 @@ Import the `initSDK` module into your project. Please check the `batch-widget` f
 
 ## Example automation widget
 
+http://recordit.co/Qnt5UoXhw4
+
 `src/batch-widget` uses this SDK to configure a simple backup-as-a-service environment for a service provider. It logs-in using the provided credentials (`sdk/apiConfig.js`), creates a resource pool, a data protection resource (an Avamar server), a tenant, a resource share and a folder. It is a very basic but powerful usage example of this SDK that enables configuration-as-code for BaaS environments. 
 
 To test this widget you need to follow the steps from `Getting Started` and then `npm run test` that uses the popular Mocha testing framework.

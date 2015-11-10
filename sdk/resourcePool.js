@@ -43,7 +43,7 @@ export function createResourcePool(authToken, serviceProviderId,
         response: result.response, 
       });
     }, error => {
-      // console.log(error);
+      console.log(error);
       return reject(error);
     });  
   });
